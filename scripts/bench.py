@@ -92,14 +92,16 @@ def main():
             r = von.decide(state=state, choices=crit, instructions=INSTR)
             return r.choice, r.confidence
         all_out["von"] = run_model("von", d)
-    if which in ("quyet","all"):
+    if which in ("quyet", "quyet-tiny", "quyet-small", "all"):
         import quyet
-        m = quyet.load("chinhnc/Quyet-1.0-Tiny")
+        repo = "chinhnc/Quyet-1.0-Small" if which == "quyet-small" else "chinhnc/Quyet-1.0-Tiny"
+        key = "quyet-small" if which == "quyet-small" else "quyet"
+        m = quyet.load(repo)
         def d(state, crit):
             r = m.predict(state, {"q":{"type":"choice","instructions":INSTR,"criteria":crit}})
             a = r["answers"]["q"]
             return a["choice"], a["confidence"]
-        all_out["quyet"] = run_model("quyet", d)
+        all_out[key] = run_model(repo, d)
     if which in ("laya","all"):
         import laya
         a = laya.load(device="cpu")

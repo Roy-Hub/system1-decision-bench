@@ -9,13 +9,22 @@ Date of the reported run: 2026-10-17. Box: AMD Ryzen AI Max+ 395, 32 threads,
 
 ## Models
 
-| Model | Package | Checkpoint |
-|---|---|---|
-| Quyet-1.0-Tiny | `quyet` (1.0.2) | `chinhnc/Quyet-1.0-Tiny` |
-| Von 1.3 | `von_sdk` (1.3.7) | `wfzyx/von` (`option_marker.pt`) |
-| Laya | `laya` (0.4.11) | ConvAI Laya checkpoint |
+| Model | Params | Type | Runs on | Package | Checkpoint |
+|---|---|---|---|---|---|
+| Quyet-1.0-Tiny | 180M | Encoder (mmBERT-small, 16 layers) | CPU, ~6 ms claimed | `quyet` (1.0.2) | `chinhnc/Quyet-1.0-Tiny` |
+| Von 1.3 | 395M | Encoder (ModernBERT, 28 layers, F32) | CPU | `von_sdk` (1.3.7) | `wfzyx/von` (`option_marker.pt`) |
+| Laya | 421M | Encoder (F16, calibrated heads) | CPU | `laya` (0.4.11) | ConvAI Laya checkpoint |
 
 All three are Apache-2.0 and run on CPU.
+
+Not benched (same Quyet family, for context):
+
+| Model | Params | Type | Runs on |
+|---|---|---|---|
+| Quyet-1.0-Small-EN | 150M | Encoder | CPU or any GPU |
+| Quyet-1.0-Small | 330M | Encoder | CPU or any GPU |
+| Quyet-1.0-Medium | 4.7B | LLM (Qwen3.5) | 16 GB GPU |
+| Quyet-1.0-Large | 31.3B | LLM (Gemma 4) | 80 GB GPU |
 
 ## Dataset
 

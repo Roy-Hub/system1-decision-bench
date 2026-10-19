@@ -12,17 +12,17 @@ Date of the reported run: 2026-10-17. Box: AMD Ryzen AI Max+ 395, 32 threads,
 | Model | Params | Type | Runs on | Package | Checkpoint |
 |---|---|---|---|---|---|
 | Quyet-1.0-Tiny | 180M | Encoder (mmBERT-small, 16 layers) | CPU, ~6 ms claimed | `quyet` (1.0.2) | `chinhnc/Quyet-1.0-Tiny` |
+| Quyet-1.0-Small | 330M | Encoder | CPU | `quyet` (1.0.2) | `chinhnc/Quyet-1.0-Small` |
 | Von 1.3 | 395M | Encoder (ModernBERT, 28 layers, F32) | CPU | `von_sdk` (1.3.7) | `wfzyx/von` (`option_marker.pt`) |
 | Laya | 421M | Encoder (F16, calibrated heads) | CPU | `laya` (0.4.11) | ConvAI Laya checkpoint |
 
-All three are Apache-2.0 and run on CPU.
+All four are Apache-2.0 and run on CPU.
 
 Not benched (same Quyet family, for context):
 
 | Model | Params | Type | Runs on |
 |---|---|---|---|
 | Quyet-1.0-Small-EN | 150M | Encoder | CPU or any GPU |
-| Quyet-1.0-Small | 330M | Encoder | CPU or any GPU |
 | Quyet-1.0-Medium | 4.7B | LLM (Qwen3.5) | 16 GB GPU |
 | Quyet-1.0-Large | 31.3B | LLM (Gemma 4) | 80 GB GPU |
 
@@ -57,11 +57,14 @@ Binary accuracy on 67 decidable cases (38 text + 29 image):
 | Model | Accuracy | Flipped order | Flip rate | p50 ms | p95 ms | RAM MB |
 |---|---|---|---|---|---|---|
 | Quyet-1.0-Tiny | 82.1% | 73.1% | 11.9% | 104 | 256 | 1837 |
+| Quyet-1.0-Small | 77.6% | 77.6% | 17.9% | 108 | 379 | 2482 |
 | Von 1.3 | 65.7% | 65.7% | 0.0% | 394 | 2294 | 2357 |
 | Laya | 64.2% | 53.7% | 13.4% | 390 | 1115 | 2429 |
 
-Confidence gate (kept volume / kept accuracy): Quyet at >=0.6 keeps 46.3% of
-cases at 90.3% accuracy.
+Confidence gate (kept volume / kept accuracy): Quyet-Tiny at >=0.6 keeps 46.3%
+of cases at 90.3% accuracy; Quyet-Small at >=0.6 keeps 38.8% at 88.5%.
+Quyet-Small (330M) did not beat Tiny (180M) on this set: lower accuracy, higher
+flip rate, more RAM, similar latency. Tiny stays primary.
 
 Decision: GO on the text lane with Quyet-1.0-Tiny as primary. Image lane is a
 conditional GO, Quyet only, in shadow mode. Full write-up: `report.md`, plus

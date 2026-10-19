@@ -1,0 +1,244 @@
+[
+ {
+  "id": "img01",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_turnstile_01.png",
+  "label": "turnstile_challenge",
+  "verification": "browser_vision 2026-10-17: 'Verify you are human' checkbox + Cloudflare branding, 2captcha demo page",
+  "ocr": "2Captcha | Captcha solver  | EntryjobAPlProxy | Scrapers | Data for Al  | Resources | Sign up | Login | CloudflareTurnstiledemo | \u4e09Captchasdemo | Thispage explains how CloudflareTurnstile is displayed and how Cloudflare | reCAPTCHA | Turnstile verification works. You can also check how the Cloudflare Challenge | reCAPTCHA v2 | works on example page. | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | Cloudflare Turnstile | Cloudflare Challenge | reCAPTCHA v2 Enterprise | reCAPTCHA v3 | Verify you are human | CLOUDFLARE | reCAPTCHA v3 Enterprise | For testing only.If seen, report to site owner | Privacy \u00b7 Help | Others | Normal Captcha | Check | Reset | Text Captcha | Click captcha | Cloudflare Turnstile | In many cases CloudflareTurnstile hinder accessibility,frustrate users,limits | access toopen information,makes testing application and sites difficult.Use | MTCaptcha | CloudflareTurnstilesolverforautomaticbypass. | GeeTest captcha | Cloudflare Turnstile solver </> API | Lemin captcha | Rotatecaptcha | KeyCAPTCHA | HowtosolveCloudflareTurnstile | Solve Media captcha | \u00b7Open developer's consoleinyourbrowser andfind element with data-sitekey | attribute. | <div class=\"cf-turnstile\" data-sitekey=\"3x00000000000000000000FF\"></div> | \u4e2d | \u00b7 Send sitekey and pageurl to our APl."
+ },
+ {
+  "id": "img02",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_recaptcha_01.png",
+  "label": "recaptcha_challenge",
+  "verification": "browser_vision 2026-10-17: 'I'm not a robot' checkbox + reCAPTCHA logo, 2captcha demo page",
+  "ocr": "2Captcha | Captcha solver  | Entryjob API Proxy | Scrapers  | Data for Al  | Resources | Sign up | Login | reCAPTCHAv2demo | \u4e09Captchasdemo | reCAPTCHA | verification works.reCAPTCHA v2 also known as\"'m not a robot\"reCAPTCHA is a | reCAPTCHA v2 | very popular type of captcha that looks like this: | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | I'm not a robot | reCAPTCHA v2 Enterprise | This site is exceeding reCAPTCHA | reCAPTCHA | Enterprise free quota. | reCAPTCHA v3 | reCAPTCHAv3Enterprise | Check | Reset | Others | Normal Captcha | Text Captcha | In many casesreCAPTCHAv2hinder accessibility,frustrateusers,limits access | Click captcha | to open information, makes testing application and sites difficult. Use | reCAPTCHA v2 solverforautomaticbypass. | Cloudflare Turnstile | V2 | reCAPTCHAv2 solver</>API | MTCaptcha | GeeTest captcha | Lemin captcha | HowtosolvereCAPTCHAv2 | Rotatecaptcha | \u00b7Open developer's console in your browser and find element with data-sitekey | KeyCAPTCHA | attribute. | Solve Media captcha | <div class=\"g-recaptcha\" data-sitekey=\"6LfD3PIbAAAAAJs_eEHvo0175_83eXSqpPSRFJ_u\" id= | \u00b7 Send sitekey and pageurl to our APl. | WithSDK(recommended):"
+ },
+ {
+  "id": "img03",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_perimeterx_01.png",
+  "label": "perimeterx_challenge",
+  "verification": "browser_vision 2026-10-17: 'Robot or human?' + PRESS & HOLD modal over Sam's Club homepage",
+  "ocr": "sams club | Reorder | % Savings | Sign In | How do you want your items? | Search everything at Sam's Club online and in club | Account | $0.00 | Departments | Services | Pay with EBT | Robot or human? | For easy checkout in club and online. | Activate and hold the button toconfirm that you're | human. Thank You! | Shop now | PRESS&HOLD | Join Now | On eligible items. | sam'sclub | Try a different method | Ready toshop?Let's | Items you may like | See all | get started. | Driscoll's | Already a member? | New to Sam's Club? | Need online access? | Sign in to pick up where | Members get exclusive | Shop the Club anywhere, | RECYCLE | you left off. | perks and value. |  anytime. | 15\u5143 | Sign in now | Join today. | Register online"
+ },
+ {
+  "id": "img04",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_datadome_01.png",
+  "label": "datadome_block",
+  "verification": "browser_vision 2026-10-17: Etsy 'Access is temporarily restricted' static block page, trace id visible",
+  "ocr": "Etsy | Access is temporarily restricted | We detected unusual activity from your device or network. | Reasonsmay include: | -Rapid taps or clicks | - JavaScript disabled or not working | -Automated (bot) activity on your network (IP 108.216.137.139) | -Use of developer or inspectiontools | Need help? Submit feedback. | ID:d3ba40a1-5f13-3bb3-12af-dc88577bfa2c"
+ },
+ {
+  "id": "img05",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_target.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: Target homepage full render, no challenge overlay",
+  "ocr": "Ship to 75033 | Frisco North | Target Circlem | Target Circle Card | Target Circle 360\"w | Registry &Wish List | Weekly Ad | Find Stores | Categories | Deals | Pickup & delivery | What can we help you find? | AskTarget | Account | Signinforthebestexperience | Seepast orders and manage returns | Get set for | Check out faster | Halloween | Find low prices on decorating. | Signinor create account | hosting & dressing up. | BOGO | From | Up to | From | 25 | 0%o | $1 | 40% | $3 | off | 75 | HERSHEYS | Reeses | HAPPY | ALLOWEEN | Kiket | Reese's | Trick-or-treat candy* | Halloween party supplies | SelectHalloweendecor* | Boo baskets | Save on Halloween must-haves | Shop all"
+ },
+ {
+  "id": "img06",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_cfdocs.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: Cloudflare docs 404 page, normal render, no challenge",
+  "ocr": "CLOUDFLARE | DOCS | Directory | API | SDKS | Changelog | Q Search | CtrlK | \u53e3 | Log in | 88 | Turnstile | Filter sidebar | Overview | 404 | Plans | Spin | Concepts | Get started | Additional configurations | Check the URL, try using our search or try our LLM- | friendly llms.txt directory. | Turnstile Analytics | Migration | Tutorials | Troubleshooting | Extensions | Reference | Report issue | Community resources | Changelog | CLOUDFLARE | Getting started | Public interest | Resources | Solutions | Plans | Project Galileo | App innovation report | SSE and SASE platform | Contact sales | AthenianProject | CloudflareRadar | Cloudflare AlCloud | Partners | CloudflareforCampaigns | Case studies | AI Security | Find a partner | Project Fairshot | Status | FrontendDevelopmentPlatform"
+ },
+ {
+  "id": "img07",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_fec7d5fd.png",
+  "label": "perimeterx_challenge",
+  "verification": "vision 2026-10-17: Sam's Club 'Let us know you're human (no robots allowed)' + PRESS & HOLD",
+  "ocr": "sam'sclub | Let us know you're human(no robots | allowed) | PRESS&HOLD | Help center Terms Privacy Californiaprivacyrights | YourprivacychoicesRequestpersonal information | 2026 Sam's West, Inc. All rights reserved."
+ },
+ {
+  "id": "img08",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_dbb031f2.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Citi job application form, normal render",
+  "ocr": "HowDidYou HearAbout Us?* | \u00d7 Facebook | Have you ever been employed by Citi or any of its predecessor companies (including but not limited to | Citibank,Citicorp,Banamex,Salomon Brothers,orSmithBarney)whetheras an employee orvia an agency | orasacontractor,temporaryworker orconsultant?* | Yes | No | Country* | UnitedStatesofAmerica | Legal Name | First Name * | [name] | Last Name * | [name] | Ihave a preferred name | Address | Save and Continue",
+  "withheld": "image withheld for privacy (logged-in page); OCR evidence retained, names redacted"
+ },
+ {
+  "id": "img09",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_e7050874.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: HercRentals homepage, normal render",
+  "ocr": "= | HercRentals? | Q USA Sign In | Take a deeper dive into our gear | and solutions. | We can help you get the job done efficiently, effectively and safely. | Learn More | Company | Careers | Used Equipment | Support | ScantogettheApp | About Us | Search Jobs | Find Used Equipment |  Find a Branch | Apple Store | Google Play | Investor Relations | Military Friendly | View Deals | Contact Us | Company News | Ready Finance | Feedback | Gear Up Blog | Resources | Chat With Expert | \u56de | in | X | 1-833-967-6026 | @ 2026 Herc Rentals Inc. IPrivacy Policy |Terms of Use |Legal ISite Map I Manage Cookie Preferences | USA"
+ },
+ {
+  "id": "img10",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_5057717e.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Lubbock RV Retreat booking page, normal render",
+  "ocr": "Powered by Firefly Reservations | Retreat | RV | RESORT | Cancelationpolicy:48hours'notice | must be given toreceive a refund | minus $4.50 transaction fee. | Reservationsfor30days or longer | MUST be made in the office. | Please call 806-368-8613,s0we | can assistyou with thatreservation. | Check-in:1pm | Check-out:12pm | RESERVATION DURATION TYPE | O Nightly | ARRIVING | \u66f2 | Wed 0ct 14, 2026 | DEP | Oct2026 | \u66f2 | Su | Mo | TuWe | Th | E | Sa | ADU | 30 | RV | 20 | 21 | 25 | 20 | EQU | Motorhome Class C | \u66f2 View availability calendar  | SEARCHAVAILABILITY | 0 Units\u00b7$0.00 | CONTINUE \u2192"
+ },
+ {
+  "id": "img11",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_56eef708.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: same site, 'no available units' banner, normal render",
+  "ocr": "Retreat | RV | There are no available units that match your search criteria. | RESORT | Powered by Firefly Reservations | Cancelationpolicy:48hours'notice | must be given toreceive a refund | minus $4.50 transaction fee. | Reservationsfor30days or longer | MUST bemade in the office. | Please call 806-368-8613,s0we | can assistyou with that reservation. | Check-in:1pm | Check-out:12pm | RESERVATION DURATION TYPE | O Nightly | ARRIVING | \u66f2 | Wed 0ct14,2026 | DEPARTING | \u66f2 | Sat Nov 28,2026 | ADULTS | CHILDREN | PETS | 2 | 0 | RV LENGTH (FT) * | 30 | RV MANUFACTURE YEAR * | 2024 | EQUIPMENT TYPE | Motorhome Class C | \u66f2 View availability calendar  | SEARCHAVAILABILITY | 0Units\u00b7$0.00 | CONTINUE \u2192"
+ },
+ {
+  "id": "img12",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_6dc48f39.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Texas RV Park site map, normal render",
+  "ocr": "Availableunitsfor 0ct14,2026arrivaltoNov20,2026departure | RV | 2adults\uff0c0children\uff0c0 pets | List | Map | BIG SPRING | WILLARDST | Q | 254 | UNIT TYPE | RV Site | RESERVATION DURATION TYPE | O Nightly | 242 | TEXAS | RESERVATION TYPE | 238 | STANDARD | ONGOING | RV PARK | CARDINAL | Pay for entire stay |  Pay monthly | BIG SRING,TEXAS | 234 | ARRIVING | 87 | RelaxStayExplore | 230 | \u753b | Wed 0ct 14, 2026 | BATHROOM | DEP | Oct2026 | MAPKEY | 228 | \u66f2 | Sites with Awnings | 224 | Su | Mo | Sa | ADU | 30 Amp Sites | 220 | TO SAN ANGELOUS87 SOUTH | 30 &50 Amp Sites | 216 | RV | Cabins | 212 | Dog Parks | Buildings | 208 | 18 | 61 | 20 | EQU | 204 | 5 | Good People | Mo | 200 | Great Stays | Big Horizons | SHOP | SEARCHAVAILABILITY | Filter | Class | All Classes | 30amp Full Hookup | 50/30amp Full Hookup | 50amp Full Hookup | Apartment | Cabins | 0Units\u00b7$0.00 | CONTINUE \u2192"
+ },
+ {
+  "id": "img13",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_2cff8f18.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Lubbock RV Park booking search page, normal render",
+  "ocr": "bock | HOME | ABOUT US | STAY | MAP | THINGS TO DO | DINING  | CONTACT US | BLOG | FAQS | 806-747-2366 | CHECK AVAILABILITY | RVPARK | SITES | SITE MAP | USD ($) | Search | CHECK IN | CHECKOUT | Fri, Nov 27, 2026 | 2 Adults, 0 Chlldren, 0 Pets | Your Cart is Empty | What dates will you be staying? | Sat,Nov 28,2026 | Add itemstoyour carttobegin | GUESTS | Classes: | Lodge/Cabin | AllRVSites | yourreservation. | 2 Adults,0 Children,0 Pets | RVType:* | Motorhome | DATES | 1NIGHTS | Length:* | 30-34Ft | CHECK IN | CHECKOUT | Fri, Nov 27,2026 | Sat,Nov 28,2026 | Electricity:* | 30+ | October2026 | SUN | MON | TUE | WED | THU | FRI | SAT | Other: | Cabin | Lodge | SEARCH | Reset | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 15 | 16 | 17 | Fri, Nov 27, 2026 - Sat,Nov 28,2026 - 2 Adults. Showing 25 results. | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 31 | 000) RV Back-in Site | Full Hook-Up | Legend: | Montana | Available | No Vacancy | 7checkout | MoreDetails | Check Detailed Availability | OCCUPIED | Click here to check availability | SEARCH"
+ },
+ {
+  "id": "img14",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_b6505c9c.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Lubbock RV Park site listings + date picker, normal render",
+  "ocr": "RV Sites | ull-hookup's; | 6 | 20/30/50 Amp, Electric, Water and Sewer Hookups I Our Deluxe sites | feature a large private fire ring perfect for roasting s'mores and staying coz. | Site amenities: 20-Amp | 30-Amp | 50-Amp|Back-ln | $63.70 | Price (Nightly) | Charcoal Grill (at community area) | Community Fire Pit  Electricity | Avg per night | $25 | $65 | Extra Large Outdoor AreaFire Ring|Gravel PadPet-Friendly|Picnic Table |  Premium Views  Private Bench | Sewer Hook-Up Water Hook-Up Wi-Fi | $127.40 Total | Pull-Through | Fitsvehiclesupto50feetlong | Amenities | View Availability  |  20-Amp | 1 Available Location | 17 | 30-Amp | 17 | \u53e3 | 50-Amp | 17 | Back-ln | Standard RV Site (Full-Hookups)  | Charcoal Grill(at community | 17 | WE DO NOT HAVE RESTROOMS OR BATH HOUSE ON SITE IFull-hookup's; | area) | 20/30/50 Amp, Electric, Water and Sewer Hookups I Each site Pull-Through  | Community Fire Pit | 19 | site will have a large private fire ring perfect for roasting s'mores and stayi.. | Dump Station on Property | $52.34 | Site amenities: 20-Amp| 30-Amp|50-Amp |Back-In | Electricity | 17 | Charcoal Grill (at community area)| Community Fire Pit  Electricity | Gravel Pad | Avg per night | Extra Large Outdoor Area | Pet-Friendly  Picnic Table |Premium Views |Pull-Through Sewer Hook-Up | $104.68Total | FireRing | Water Hook-Up  Wi-Fi Fire Ring | Fits vehicles up to 80 feet long | Show all  | Hide Availability ^ | 15 Available Locations | November2026 | December2026 | Su | Mo | Tu |"
+ },
+ {
+  "id": "img15",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_f37bb7c1.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Lubbock RV Park booking page, normal render",
+  "ocr": "bbock | HOME | ABOUT US | STAY | MAP | THINGS TO DO | DINING  | CONTACT US | BLOG | FAQS | 806-747-2366 | CHECK AVAILABILITY | RVPARK | SITES | SITE MAP | USD ($) | Search | CHECK IN | CHECKOUT | Wed, Oct 14, 2026 | Thu, Oct 15, 2026 | 2 Adults, 0 Chlldren, 0 Pets | Your Cart is Empty | What dates will you be staying? | Additemstoyourcarttobegin | GUESTS | Classes: | Lodge/Cabin | AllRVSites | yourreservation. | 2 Adults,0 Children,0 Pets | RVType:* | Select... | DATES | 1NIGHTS | Length:* | Select... | CHECK IN | CHECKOUT | Wed,0ct14,2026\u2192 | Thu, Oct 15,2026 | Electricity:* | Select. | October2026 | SUN | MON | TUE | WED | THU | FRI | SAT | Other: | Cabin | Lodge | SEARCH | Reset | 5 | 6 | 8 | 5 | 10 | 12 | 13 | 14 | 7 | 16 | 17 | 15 | Wed,Oct14,2026-Thu,Oct15,2026-2Adults.Showing 25results. | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 31 | 013) Airstream Lodge | Legend: | Kickback and relax in Lubbock RV | Park's very own Airstream Lodge! | Available | No Vacancy | 7checkout | Named after the iconic RV,The | Airstream was carefully designed to | CheckDetailedAvailability | hold up to 5people comfortably and | styl... | More Details  | SEARCH"
+ },
+ {
+  "id": "img16",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_1852d172.png",
+  "label": "blank",
+  "verification": "vision 2026-10-17: fully white frame; matches the unresolved DataDome empty-iframe signature; ambiguous class, excluded from binary accuracy",
+  "ocr": ""
+ },
+ {
+  "id": "img17",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_2a8d1f22.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Keka HR dashboard, normal render",
+  "ocr": "keka' | InApp | Search employees or actions (Ex: Apply Leave) | Alt + K | MR | DASHBOARD | WELCOME | Home | Welcome [name]! | Me | QuickAccess | Inbox | Organization | Engineering>Architecture | Quick Links | My Team | Talent Connect | Post | \u5415 Poll |  Praise | ? | Write your post here and mention your peers |  My Finances | Inbox | Tasks waiting for your approval. Please click on take | 510 | Take Action | action for more details. | No announcements | Engage |  Project Time - Today | 1Birthday |  5 Work Anniversaries |  0 New joinees | Helpdesk | No entries added today | Birthdays today | Add Time Entry | Performance | View All | Anup Nair S | Holidays | Wish | \u5408 | Learn | Veterans Day | Upcoming Birthdays | Wed, 11 November, 2026  | Pooj... | Sreerag V S | SiuWai Cheng | Meera V.... |  Chandan.. | Devika S Ajith | Leave Balances | 03 October | 03 October | 03 October | 04 October | 04 October | 07 October | 17 | Request Leave | Days | Days | Days | View All Balances | Joshua... | Joshva... | Eivin C Alex | Anitha Paul | Ganadeepa H | EARNED LEAVE | CASUAL LEAVE | 07 October | 07 October | 08 October | 08 October | 08 October | SICK LEAVE | Nithya Jose created a poll | NJ | 3 hours ago | you investigate FIRST?",
+  "withheld": "image withheld for privacy (logged-in page); OCR evidence retained, names redacted"
+ },
+ {
+  "id": "img18",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_bd728575.png",
+  "label": "clean",
+  "verification": "vision 2026-10-17: Keka login page, normal render",
+  "ocr": "@InApp | InApp | Login toKeka | Continue with Google |  Continue with Password | WelcometoKeka! | Continue with Mobile | Your New Workplace Experience | Download on the | GooglePlay | GETIT ON | AppStore | keka' | By logging in, you agree to Keka Terms of |  Use and Privacy Policy"
+ },
+ {
+  "id": "img19",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_parkedlander.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: threatdeck.com parked-domain lander, normal render, no challenge overlay",
+  "ocr": "Q.corp | By Staff Writer | 2025-12-18 | Corporate Cybersecurity Strategies | and Best Practices | operations againstadvanced cyber threats.Thisguide exploressecurity | frameworks,threatprevention,incidentresponse,and compliance to | attacks. | Related searches | Online Protection | Q | CybersecuritySolutions and Services | Q | Computer Security Services | Q | Cybersecurity Providers | Cybersecurity Offerings | InfosysCyberSecurity | Better Search | Tap\"Download\" | To Start | Download > | Tap\"Download\"ToStart | (Free)"
+ },
+ {
+  "id": "img20",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_invisrecaptcha.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: 2captcha invisible-recaptcha demo, no visible widget, normal render",
+  "ocr": "2Captcha | Captcha solver  | Entryjob API Proxy | Scrapers | Data for Al  | Resources | Sign up | Login | reCAPTCHAv2Invisibledemo | \u4e09Captchasdemo | reCAPTCHA | v2 Invisible verificationworks.reCAPTCHA v2alsohas an invisible version. | reCAPTCHA v2 | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | Check | reCAPTCHA v2 Enterprise | reCAPTCHA v3 | reCAPTCHAv3Enterprise | In many cases reCAPTCHAv2 Invisible hinder accessibility,frustrate users, | Others | limits access to open information, makes testing application and sites difficult. | UsereCAPTCHAv2 Invisible solverfor automaticbypass. | Normal Captcha | V2 | Invisible | reCAPTCHAv2Invisible solver</>API | Text Captcha | Click captcha | Cloudflare Turnstile | HowtosolvereCAPTCHAv2Invisible | MTCaptcha | \u00b7Open developer's console in your browser and find element with data-sitekey | GeeTest captcha | attribute. | Lemin captcha | Rotate captcha | KeyCAPTCHA | Solve Media captcha | \u00b7Send sitekey and pageurl to our APl. | With SDK(recommended): | \u25bcPHP | //https://github.com/2captcha/2captcha-php | \u4e2d | require( | DIR"
+ },
+ {
+  "id": "img21",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_419fcd06.png",
+  "label": "perimeterx_challenge",
+  "verification": "vision 2026-10-17: Sam's Club modal Robot or human?\" + PRESS & HOLD\"",
+  "ocr": "sams club | Reorder | % Savings | Sign In | How do you want your items? | Search everything at Sam's Club online and in club | Account | $0.00 | Departments | Services | Unlockitallwith | membership | Robot or human? | Get the most from every trip with excl | Activate and hold thebutton to confirm that you're | items, members-only fuel prices, & mc | human.Thank You! | Join now | PRESS&HOLD | Join Now | *Avallable at select locations. | Try a different method | Ready to shop? Let's | Items you may like | See all | get started. | Driscoll's | Already a member? | New to Sam's Club? | Need online access? | \u5c97 | Sign in to pick up where | Members get exclusive | Shop the Club anywhere, | RECYCLE | you left off. | perks and value. |  anytime. | 15 | Sign in now | Join today. | Register online"
+ },
+ {
+  "id": "img23",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_etsysearch.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: Etsy search results grid, normal render, no challenge",
+  "ocr": "Etsy | \u4e09Categories | handmade ring | Sign in | Gifts | 100HalloweenEssentials | Home Favorites | Fashion Finds | Vintage | Wedding Guide | GiftCards | Showfilters | New | Handmade only | Ships from US | Under$50 | Vintage | Peony | Lapis Lazuli | Turquoise | Tribal | Bohemian | Most relevant - | Popularnow | Popular now | ombre ring, green stacking ring, unique gemstone ... | Birth Flower Ring 925 Sterling Silver Mother of Pe... | Moss Agate Leaf Ring Rose Gold | Nature Inspired... | 4.9 \u2605(4.1k) Ad \u00b7By DANIBARBEshop  | Oval Aquamarine Ring: Simple 925 Sterling Silver .. | 4.7\u2605(9.1k)Ad\u00b7ByPBJewelryGift | 4.6 \u2605(68) Ad \u00b7By SIERRALUXEE | $136.00 | 4.6 \u2605(8.1k) By Silverringhandmade20 | $29.40 $42.00 (30% off) | $39.98 $49.98 (20% off) | Free shipping | $13.80 $45.99 (70% of) | Free shipping | Free shipping | Free shipping | \u5341 Add to cart | More like this\u2192 | + Add to cart | More like this \u2192 | \u5341 Add to cart | More like this \u2192 | +Addto cart | More like this \u2192 | Popular now | Popular now | Popular now | Bestseller"
+ },
+ {
+  "id": "img24",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_cf_block_interstitial.png",
+  "label": "turnstile_challenge",
+  "verification": "vision 2026-10-17: Cloudflare interstitial \"Sorry, you have been blocked\" + Ray ID a4c3e4b13b144764 (Cloudflare family)",
+  "ocr": "Sorry, you have been blocked | You are unable to access 2captcha.com | Why have I been blocked? | What can I do to resolve this? | This website is using a security service to protect itself from online | You can email the site owner to let them know you were blocked. | attacks. The action you just performed triggered the security | Please include what you were doing when this page came up and | solution. There are several actions that could trigger this block | the CloudflareRay ID found at thebottom of thispage. | including submitting a certain word or phrase,a SQL command or | malformeddata. | Cloudflare Ray ID: a4c3e4b13b144764 | securitybyCloudflare"
+ },
+ {
+  "id": "img25",
+  "lane": "image",
+  "file_or_state": "dataset/images/img_clean_hugedomains.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: HugeDomains sale page, normal render",
+  "ocr": "HugeDomains | Search | +1-303-893-0552 | Home | FAQs | About us | Contactus | My account | WrongWebsite.com | WrongWebsite.com | Buy now: | $595 | This domain is for sale: $595 | \u00b7Buy now | Favorite | or | - Start payment plan | Questions?Talkto a domain expert:1-303-893-0552 | Only $24.79/mo.for 24 months | See details | Since2o05,we'vehelped thousandsofpeoplegettheperfect | domain name | 30-day money back guarantee | 66 Easy transaction and quick domain access. 99 | B | -Bharath Chinnadurai,September29,2026 | Takeimmediateownership | 6Fast great, reliable service.Helped us secure the domain quickly and transfer it our | Safe and secure shopping | R | server.9 | -Robert Patterson,September28,2026 | 66 Great job. Easy process. Thorough follow through. 99 | David Hucks,September 25,2026 | We value your privacy | Customize | Reject All | Accept All"
+ },
+ {
+  "id": "img26",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_ddec1170.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: 2captcha recaptcha-v3 demo, invisible scoring, no visible widget, normal render",
+  "ocr": "2Captcha | Captcha solver  Entry job API  Proxy | Scrapers | Data for Al  | Resources | Sign up | Login | reCAPTCHAv3demo | \u4e09 Captchas demo | reCAPTCHA | verification works.reCAPTCHA v3 is the newest type of captcha from Google.It | reCAPTCHA v2 | has no challenge so there is no need for user interaction. Instead it uses a | \"humanity\" rating - score. | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | reCAPTCHA v2 Enterprise | reCAPTCHA v3 | Check | reCAPTCHA v3 Enterprise | Others | In many casesreCAPTCHAv3 hinder accessibility,frustrate users,limits access | Normal Captcha | to open information, makes testing application and sites difficult. Use | Text Captcha | reCAPTCHAv3solverforautomaticbypass. | Click captcha | V3 |  reCAPTCHA v3 solver </> API | Cloudflare Turnstile | MTCaptcha | GeeTest captcha | HowtosolvereCAPTCHAv3 | Lemin captcha | \u00b7Explore the source code of the website and search for grecaptcha.execute call. The | Rotate captcha | call can be anywhere in the website code, inside <script> elements of the page of | KeyCAPTCHA | inside the includedjavascript files.Forexample,onour demopage source codeyou | will find: | Solve Media captcha | window.grecaptcha.ready(function(\uff09{ | grecaptcha.execute( | '6LfB5_IbAAAAAMCtsjEHEHKqcB9iQocwwxTiihJu'\uff0c | {action: 'demo_action'}, | ).then(function(token){ | if (window.verifyRecaptcha\uff09{"
+ },
+ {
+  "id": "img27",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_9e68795c.png",
+  "label": "other_challenge",
+  "verification": "browser_vision 2026-10-17: MTCaptcha text-entry widget visible (VJY); vendor outside the four named classes",
+  "ocr": "2Captcha | Captcha solver  | Entryjob API Proxy | Scrapers | Data for Al  | Resources |  Sign up  | Login | MTCaptcha demo | \u4e09 Captchas demo | This page explains how MTCaptcha is displayed and how MTCaptcha verification | reCAPTCHA | works.MTCaptcha is a smart captcha service that is GDPR and WCAG compliant, | reCAPTCHA v2 | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | Privacy & Terms | \u300b | reCAPTCHA v2 Enterprise | reCAPTCHA v3 | reCAPTCHAv3Enterprise | Enter text from image | Others | Powered by MTCaptcha TM | Normal Captcha | Text Captcha | Check | Reset | Click captcha | Cloudflare Turnstile | MTCaptcha | In many cases MTCaptcha hinder accessibility, frustrate users,limits access to | GeeTest captcha | open information, makes testing application and sites difficult. Use MTCaptcha | solverforautomaticbypass. | Lemin captcha |  MTCaptcha solver </> API | Rotatecaptcha | KeyCAPTCHA | Solve Media captcha | How to solve MTCaptcha | \u00b7Find the websitekey parameter:call window.mtcaptchaconfig.sitekey or | window.mtcaptcha.getConfiguration().sitekey in your browser console. | \u00b7Send websiteKey and websiteURL to our APl."
+ },
+ {
+  "id": "img28",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_4f317673.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: Neiman Marcus homepage promo popup, normal render (snapshot showed iframe only; vision confirmed full render)",
+  "ocr": "FIRST CALL: UP TO 40% OFF FALL STYLES | Dallas - NorthPark | My Orders | manMareus | Sign in | WOMEN | MEN | bearcl | SEARCH Q | New ArrivalsThe Edits | De | Kids | Home | Gifts   Sale | NeimanMarcu | BUYMORE,EARN MORE | EARN A $100-$1,250 G | $750 | $1,500 | $3,000 | $5,000+ | Limited Time | Code OURGIFT | $175 | $375 | $750 | $1,250 | Would you like | SHOP WOMEN'S SHOP MEN'S | 15% Off? | YES | NO THANKS"
+ },
+ {
+  "id": "img29",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_0d2f83b6.png",
+  "label": "clean",
+  "verification": "browser_vision 2026-10-17: SeatGeek homepage, normal render",
+  "ocr": "SEAT | Sports | Music | Shows | Cities | Sign in | Be good at seats | The best tickets at the best prices | Search or ask anything | Ask | Best CardenalesdeNuevoLeon deals | BestSMU Football dealsthismonth | Bestconcertdealsthismonth | PopularBroadwaymusicals | Popular near me | Trending Events | ADI | M | 49ers at Cowboys | Ye Live in Dallas | EdSheeran:LooPTour | 2027NavyFederalCreditUnion | Nov 15 | Nov 7 | Oct24 | NHL Stadium Series | Feb 20 | Connectto Spotify | Connect | Be the first to know when your favorite artists play nearby."
+ },
+ {
+  "id": "img30",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_023ca76f.png",
+  "label": "recaptcha_challenge",
+  "verification": "browser_vision 2026-10-17: visible I-m-not-a-robot checkbox widget on 2captcha v2-callback demo",
+  "ocr": "2Captcha | Captcha solver  | Entryjob API Proxy | Scrapers | Data for Al  | Resources | Sign up | Login | reCAPTCHAv2Callbackdemo | \u4e09Captchasdemo | This page explains how reCAPTCHA v2 Callback is displayed and how reCAPTCHA | reCAPTCHA | v2Callback verification works.Sometimes there's nosubmit buttonanda | reCAPTCHA v2 | reCAPTCHA v2 Invisible | solved. | reCAPTCHA v2 Callback | reCAPTCHAv2 Enterprise | I'm not a robot | reCAPTCHA | reCAPTCHA v3 | This site is exceeding reCAPTCHA | Enterprise free quota. | reCAPTCHA v3 Enterprise | Others | Reset | Normal Captcha | Text Captcha | Click captcha | In many casesreCAPTCHA v2 Callback hinder accessibility,frustrate users, | limits access to open information, makes testing application and sites difficult. | Cloudflare Turnstile | UsereCAPTCHAv2 Callbacksolverfor automaticbypass. | MTCaptcha | V2 | Callback | reCAPTCHA v2 Callback solver</>API | GeeTest captcha | Lemin captcha | Rotatecaptcha | HowtosolvereCAPTCHAv2Callback | KeyCAPTCHA | \u00b7 Open developer's console in your browser and find element with data-sitekey | Solve Media captcha | attribute. | \u00b7Send sitekey and pageurl to our APl. | WithSDK"
+ },
+ {
+  "id": "img31",
+  "lane": "image",
+  "file_or_state": "dataset/images/browser_screenshot_5620b276.png",
+  "label": "other_challenge",
+  "verification": "browser_vision 2026-10-17: GeeTest Click-to-verify widget visible on 2captcha demo",
+  "ocr": "2Captcha | Captcha solver  | Entryjob API Proxy | Scrapers | Data for Al  | Resources |  Sign up  | Login | GeeTest captcha demo | \u4e09 Captchas demo | This page explains how GeeTest captcha is displayed and how GeeTest captcha | reCAPTCHA | verification works.GeeTest is a type of captcha where you have to move a piece | reCAPTCHA v2 | of a puzzle or select some figures in the order. | reCAPTCHA v2 Invisible | reCAPTCHA v2 Callback | GeeTest captcha v3 | GeeTest captcha v4 | reCAPTCHA v2 Enterprise | reCAPTCHA v3 | Click to verify | reCAPTCHA v3 Enterprise | Others | Check | Reset | Normal Captcha | Text Captcha | Click captcha | In many cases GeeTest captcha hinder accessibility,frustrate users,limits | Cloudflare Turnstile | access to open information, makes testing application and sites difficult. Use | GeeTest captcha solverfor automaticbypass. | MTCaptcha | GEETEST | GeeTest captcha solver </> API | GeeTestcaptcha | Lemin captcha | Rotatecaptcha | How to solve GeeTest | KeyCAPTCHA | Solve Media captcha | \u00b7Find the following GeeTest captcha parameters on the target website(usually you car | find them inside initGeetest function): | gt - public website key (static) | challenge - dynamic challenge key | api_server -APl domain (optional) | captcha was loaded on the page the challenge value becomes invalid. You should"
+ }
+]

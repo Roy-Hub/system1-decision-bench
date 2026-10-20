@@ -1,0 +1,30 @@
+[
+ {
+  "id": "img2",
+  "file_or_state": "dataset2/images/browser_screenshot_5493fa03.png",
+  "label": "turnstile_challenge",
+  "verification": "browser_vision personal session 2026-10-17 (re-read 2026-10-20): Cloudflare Turnstile 'I'm not a robot'-style checkbox widget; no distorted-text/image grid",
+  "ocr": "VehicdeInspectionHistory | AirCheckTexas. | TCEQTEXASCOMMISSIONONENVIRONMENTALQUALITY | SecurityCheck | The Security Check allows us to ensure public access to vehicle inspection | histories. | Verify you are human | CLOUDFLARE | Privacy \u00b7 Help | Automated programs known as\"Bots\" cannot read distorted text/lmages as | well as people. The Security Check helps prevent automated programs from | Submit] | blocking other users from getting their vehicle inspection histories. | Automated programs are not allowed access to the Web site."
+ },
+ {
+  "id": "img3",
+  "file_or_state": "dataset2/images/browser_screenshot_543e46f1.png",
+  "label": "perimeterx_challenge",
+  "verification": "browser_vision personal session 2026-10-17 (re-read 2026-10-20): modal 'Robot or human?' + PRESS & HOLD button, underlying page dimmed",
+  "ocr": "sams club | Reorder | % Savings | Sign In | How do you want your items? | Search everything at Sam's Club online and in club | Account | $0.00 | Departments | Services | Pay with EBT | Robot or human? | For easy checkout in club and online. | Activate and hold the button toconfirm that you're | human. Thank You! | Shop now | PRESS&HOLD | Join Now | On eligible items. | sam'sclub | Try a different method | Ready toshop?Let's | Items you may like | See all | get started. | Driscoll's | Already a member? | New to Sam's Club? | Need online access? | Sign in to pick up where | Members get exclusive | Shop the Club anywhere, | RECYCLE | you left off. | perks and value. |  anytime. | 15\u5143 | Sign in now | Join today. | Register online"
+ },
+ {
+  "id": "img4",
+  "file_or_state": "dataset2/images/browser_screenshot_ae0ef74f.png",
+  "label": "datadome_block",
+  "verification": "browser_vision shopper session 2026-10-17 (Etsy addendum appendix): 'Access is temporarily restricted' block interstitial",
+  "ocr": "Etsy | Access is temporarily restricted | We detected unusual activity from your device or network. | Reasonsmay include: | -Rapid taps or clicks | - JavaScript disabled or not working | -Automated (bot) activity on your network (IP 108.216.137.139) | -Use of developer or inspectiontools | Need help? Submit feedback. | ID:d3ba40a1-5f13-3bb3-12af-dc88577bfa2c"
+ },
+ {
+  "id": "img5",
+  "file_or_state": "dataset2/images/browser_screenshot_72841e4f.png",
+  "label": "turnstile_challenge",
+  "verification": "vision_analyze 2026-10-20: Cloudflare 'Sorry, you have been blocked' interstitial, Ray ID a4c3e4b13b144764; no interactive widget",
+  "ocr": "Sorry, you have been blocked | You are unable to access 2captcha.com | Why have I been blocked? | What can I do to resolve this? | This website is using a security service to protect itself from online | You can email the site owner to let them know you were blocked. | attacks. The action you just performed triggered the security | Please include what you were doing when this page came up and | solution. There are several actions that could trigger this block | the CloudflareRay ID found at thebottom of thispage. | including submitting a certain word or phrase,a SQL command or | malformeddata. | Cloudflare Ray ID: a4c3e4b13b144764 | securitybyCloudflare"
+ }
+]

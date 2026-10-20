@@ -3,6 +3,9 @@
 
 Existing evidence only, no new probes. Labels self-verified by file review.
 Cookie names only, no values. Privacy-withhold logged-in pages.
+NOTE: the profile session DBs are live. Re-running this script after new
+sessions may pick up additional snapshots; the committed dataset2/ is the
+frozen 2026-10-20 build (155 cases). The mining rules below are what matter.
 Sources:
   - browser_navigate/browser_snapshot tool results in profile session DBs
   - live curl header checks saved in results/live_headers.txt and session logs
